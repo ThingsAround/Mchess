@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Counter</title>
+    </head>
+    A Word Counter<br>
+    <button style="font-size: 20px;"id="demo">Click</button>
+    <p id="Pa"></p>
+    <script>
+      var count = 0;
+      var button = document.getElementById("demo");
+      var result = document.getElementById("Pa");
+      button.onclick = function() {
+        count++;
+        result.innerHTML = count;
+      }
+    
+    </script>
+    </html>
